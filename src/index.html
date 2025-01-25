@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-js-hw-11</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Gallery section -->
+
+      <section class="gallery-section">
+        <div class="container">
+          <form class="search-form">
+            <input
+              class="search-input"
+              type="text"
+              name="user_query"
+              placeholder="Search images..."
+              autocomplete="off"
+              required
+            />
+            <button class="search-btn" type="submit">Search</button>
+          </form>
+          <ul class="gallery"></ul>
+          <span class="loader"></span>
+        </div>
+      </section>
+      <!-- /Gallery section -->
+    </main>
+    <script type="module" src="./main.js" defer></script>
+  </body>
+</html>
