@@ -1,3 +1,4 @@
+// Функція рендерить HTML розмітку
 export const createGalleryCardTemplate = cardInfo => {
   return `
   <li class="gallery-item">
